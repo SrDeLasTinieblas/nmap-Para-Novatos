@@ -64,7 +64,29 @@ Nmap done: 1 IP address (1 host up) scanned in 13.24 seconds
  - Ahora enumeraremos los servicios
 
  ```sudo nmap -sV 192.168.56.102 ```
+  `Nos saldra los puerto, los estado, los servicios y las versiones`
+ ```
+┌──(kali㉿kali)-[~]
+└─$ sudo nmap -sV 192.168.56.102   
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-01-29 18:01 EST
+Nmap scan report for 192.168.56.102
+Host is up (0.0012s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE     VERSION
+21/tcp   open   ftp         ProFTPD 1.3.5
+22/tcp   open   ssh         OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+80/tcp   open   http        Apache httpd 2.4.7 ((Ubuntu))
+445/tcp  open   netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+631/tcp  open   ipp         CUPS 1.7
+3000/tcp closed ppp
+3306/tcp open   mysql       MySQL (unauthorized)
+8080/tcp open   http        Jetty 8.1.7.v20120910
+8181/tcp closed intermapper
+MAC Address: 08:00:27:42:51:79 (Oracle VirtualBox virtual NIC)
+Service Info: Host: UBUNTU; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
-
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 27.57 seconds
+ ```
 
 
