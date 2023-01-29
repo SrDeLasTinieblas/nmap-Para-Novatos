@@ -1,6 +1,7 @@
 ﻿# nmap-Para-Novatos
  
  
+ ## Fase 1: Recopilacion de informacion
  1. Descubrir host de la red
    * Primer elemento hijo
  
