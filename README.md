@@ -35,12 +35,15 @@ nmap -sn 192.168.56.102
 ```
 
 2. Descrubir host en la red.\
-Cuando queremos scanear con el protocolo sincronismo TCP (si tiene firewall no funcionara)
--sS/sT/sA/sW/sM: TCP SYN/Connect()/ACK/Window/Maimon scans
+ -Cuando queremos scanear con el protocolo sincronismo TCP (si tiene firewall no funcionara)
+ -sS/sT/sA/sW/sM: TCP SYN/Connect()/ACK/Window/Maimon scans
 ```
 sudo nmap -sS 192.168.56.102 
 ```
-
+ - Filtramos por puerto
+```
+sudo nmap -sS 192.168.56.102 -p 80
+```
 
 
 
