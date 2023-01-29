@@ -28,7 +28,7 @@ Host is up (0.0013s latency).
 Nmap done: 256 IP addresses (3 hosts up) scanned in 23.46 seconds
 ```
 
-`¿Como Saber si un equipo esta en la red? `
+`¿Como Saber si un equipo esta en la red? `\
 agarro una ip y le hacemos un nmap -sn
 
 ```
