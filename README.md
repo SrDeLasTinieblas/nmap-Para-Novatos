@@ -35,7 +35,7 @@ nmap -sn 192.168.56.102
 ```
 
 2. Enumerar servicios de esucha.
-   - En este paso detectaremos los puertos que estan activos enumerando los puertos
+- En este paso detectaremos los puertos que estan activos enumerando los puertos
    
  - Cuando queremos scanear con el protocolo sincronismo TCP (si tiene firewall no funcionara)
  -sS/sT/sA/sW/sM: TCP SYN/Connect()/ACK/Window/Maimon scans
