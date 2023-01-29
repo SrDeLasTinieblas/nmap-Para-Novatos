@@ -14,7 +14,8 @@
 nmap -sn 192.168.56.0/24
 ```
 
-```
+`Como respuesta nos llega los host que tiene la red activos `
+`
 ┌──(kali㉿kali)-[~]
 └─$ nmap -sn 192.168.56.0/24 
 Starting Nmap 7.93 ( https://nmap.org ) at 2023-01-29 17:11 EST
@@ -25,4 +26,4 @@ Host is up (0.0041s latency).
 Nmap scan report for 192.168.56.103
 Host is up (0.0013s latency).
 Nmap done: 256 IP addresses (3 hosts up) scanned in 23.46 seconds
-```
+`
