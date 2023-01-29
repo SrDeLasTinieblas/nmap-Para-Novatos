@@ -2,8 +2,8 @@
  
  
  ## Fase 1: Recopilacion de informacion
- 1. Descubrir host de la red
-   * Primer elemento hijo
+1. Descrubir host en la red
+     - First nested list item
  
 `línea de código`
 
