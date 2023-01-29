@@ -91,4 +91,61 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 27.57 seconds
  ```
 
+`De esta manera podemos ver la version del SO.`
+
+```sudo nmap -v -O 192.168.56.102```
+
+```
+┌──(kali㉿kali)-[~]
+└─$ sudo nmap -v -O 192.168.56.102
+[sudo] password for kali: 
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-01-29 18:26 EST
+Initiating ARP Ping Scan at 18:26
+Scanning 192.168.56.102 [1 port]
+Completed ARP Ping Scan at 18:26, 0.12s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 18:26
+Stats: 0:00:02 elapsed; 0 hosts completed (0 up), 1 undergoing ARP Ping Scan
+Parallel DNS resolution of 1 host. Timing: About 0.00% done
+Completed Parallel DNS resolution of 1 host. at 18:26, 13.01s elapsed
+Initiating SYN Stealth Scan at 18:26
+Scanning 192.168.56.102 [1000 ports]
+Discovered open port 21/tcp on 192.168.56.102
+Discovered open port 22/tcp on 192.168.56.102
+Discovered open port 80/tcp on 192.168.56.102
+Discovered open port 8080/tcp on 192.168.56.102
+Discovered open port 445/tcp on 192.168.56.102
+Discovered open port 3306/tcp on 192.168.56.102
+Discovered open port 631/tcp on 192.168.56.102
+Completed SYN Stealth Scan at 18:26, 5.05s elapsed (1000 total ports)
+Initiating OS detection (try #1) against 192.168.56.102
+Nmap scan report for 192.168.56.102
+Host is up (0.0018s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+21/tcp   open   ftp
+22/tcp   open   ssh
+80/tcp   open   http
+445/tcp  open   microsoft-ds
+631/tcp  open   ipp
+3000/tcp closed ppp
+3306/tcp open   mysql
+8080/tcp open   http-proxy
+8181/tcp closed intermapper
+MAC Address: 08:00:27:42:51:79 (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Uptime guess: 199.639 days (since Thu Jul 14 04:06:38 2022)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/bin/../share/nmap
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 19.80 seconds
+           Raw packets sent: 2018 (90.438KB) | Rcvd: 24 (1.354KB)
+```                                                                             
+
+
 
