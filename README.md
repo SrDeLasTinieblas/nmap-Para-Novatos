@@ -27,3 +27,9 @@ Nmap scan report for 192.168.56.103
 Host is up (0.0013s latency).
 Nmap done: 256 IP addresses (3 hosts up) scanned in 23.46 seconds
 ```
+
+`¿Como Saber si un equipo esta en la red? `
+
+```
+nmap -sn 192.168.56.102
+```
