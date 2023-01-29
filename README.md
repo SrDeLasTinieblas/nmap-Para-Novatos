@@ -29,7 +29,6 @@ Nmap done: 256 IP addresses (3 hosts up) scanned in 23.46 seconds
 
 `¿Como Saber si un equipo esta en la red? `\
 Agarro un host que esta activa y le hacemos un nmap -sn
-
 ```
 nmap -sn 192.168.56.102
 ```
@@ -37,9 +36,8 @@ nmap -sn 192.168.56.102
 2. Descrubir host en la red.\
 Cuando queremos scanear con el protocolo sincronismo TCP (si tiene firewall no funcionara)
 -sS/sT/sA/sW/sM: TCP SYN/Connect()/ACK/Window/Maimon scans
-
 ```
-nmap -sS 192.168.56.102 
+sudo nmap -sS 192.168.56.102 
 ```
 
 
