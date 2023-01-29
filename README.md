@@ -35,7 +35,7 @@ nmap -sn 192.168.56.102
 ```
 
 2. Enumerar servicios de esucha.
-   - En este paso detectaremos los puertos que estan activos 
+   - En este paso detectaremos los puertos que estan activos enumerando los puertos
    
  - Cuando queremos scanear con el protocolo sincronismo TCP (si tiene firewall no funcionara)
  -sS/sT/sA/sW/sM: TCP SYN/Connect()/ACK/Window/Maimon scans
@@ -61,7 +61,8 @@ MAC Address: 08:00:27:42:51:79 (Oracle VirtualBox virtual NIC)
 
 Nmap done: 1 IP address (1 host up) scanned in 13.24 seconds
 ```
-
+ - Ahora enumeraremos los servicios
+ ```sudo nmap -sV 192.168.56.102 ```
 
 
 
