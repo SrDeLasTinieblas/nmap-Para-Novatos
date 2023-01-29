@@ -47,6 +47,21 @@ sudo nmap -sS 192.168.56.102
 sudo nmap -sS 192.168.56.102 -p 80
 ```
 
+`Como respuesta nos da el puerto activo y que servicio es `
+```
+┌──(kali㉿kali)-[~]
+└─$ sudo nmap -sS 192.168.56.102 -p 80
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-01-29 17:43 EST
+Nmap scan report for 192.168.56.102
+Host is up (0.00086s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 08:00:27:42:51:79 (Oracle VirtualBox virtual NIC)
+
+Nmap done: 1 IP address (1 host up) scanned in 13.24 seconds
+```
+
 
 
 
