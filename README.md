@@ -7,7 +7,6 @@
  Ejemplo: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
 1. Descrubir host en la red
      - -sn: Ping Scan - disable port scan
-     - 
  
 `Escanemos todo los host de la red`
 ```
@@ -34,3 +33,10 @@ agarro un host que esta activa y le hacemos un nmap -sn
 ```
 nmap -sn 192.168.56.102
 ```
+
+2. Descrubir host en la red
+
+
+
+
+
