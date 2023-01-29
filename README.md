@@ -8,7 +8,7 @@
 1. Descrubir host en la red
      - -sn: Ping Scan - disable port scan
  
-`Scanemos todo los host de toda la red`
+`Escanemos todo los host de toda la red`
 ```
 nmap -sn 192.168.56.0/24
 ```
