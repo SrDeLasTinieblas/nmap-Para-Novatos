@@ -1,8 +1,8 @@
 ﻿# nmap-Para-Novatos
  
  
- 1. Primer elemento
-    * Primer elemento hijo
+ 1. Descubrir host de la red
+   * Primer elemento hijo
  
 `línea de código`
 
