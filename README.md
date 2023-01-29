@@ -47,7 +47,7 @@ sudo nmap -sS 192.168.56.102
 sudo nmap -sS 192.168.56.102 -p 80
 ```
 
-`Como respuesta nos da el puerto activo y que servicio es `
+`Como respuesta nos da el puerto activo y que servicio es: `
 ```
 ┌──(kali㉿kali)-[~]
 └─$ sudo nmap -sS 192.168.56.102 -p 80
