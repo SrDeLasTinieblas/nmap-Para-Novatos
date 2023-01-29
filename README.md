@@ -3,8 +3,5 @@
  
 `línea de código`
 
-```php
-<?php
-  echo "fragmento largo de código";
-?>
+nmap -sn 192.168.56.0/24
 ```
