@@ -28,7 +28,7 @@ Nmap done: 256 IP addresses (3 hosts up) scanned in 23.46 seconds
 ```
 
 `¿Como Saber si un equipo esta en la red? `\
-agarro un host que esta activa y le hacemos un nmap -sn
+Agarro un host que esta activa y le hacemos un nmap -sn
 
 ```
 nmap -sn 192.168.56.102
