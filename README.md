@@ -163,7 +163,7 @@ sudo nmap -v -sS --script=vuln 192.168.56.102
  - --reason : Es para explicar la razon del por que esta abierto o cerrado un puerto.
  - -oX : Es para que todo se exporte en el archivo Fase1.xml.
  - --stylesheet : Aqui le decimos que queremos adaptar todo a una hoja de estilos.
- - <IP> : Este es para decirle que maquina tenemos de target
+ - <IP> : Este es para decirle que maquina tenemos de target.
 
 ```
  sudo nmap -v -sS --reason -oX Fase1.xml --stylesheet="https://svn.nmap.org/nmap/docs/nmap.xsl" 10.0.2.15
