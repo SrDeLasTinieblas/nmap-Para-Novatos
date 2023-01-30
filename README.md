@@ -14,7 +14,7 @@
 nmap -sn 192.168.56.0/24
 ```
 
-`Como respuesta nos llega los host que tiene la red activos `
+Como respuesta nos llega los host que tiene la red activos.
 ```
 ┌──(kali㉿kali)-[~]
 └─$ nmap -sn 192.168.56.0/24 
@@ -47,7 +47,7 @@ sudo nmap -sS 192.168.56.102
 sudo nmap -sS 192.168.56.102 -p 80
 ```
 
-`Como respuesta nos da el puerto activo y que servicio es: `
+Como respuesta nos da el puerto activo y que servicio es:
 ```
 ┌──(kali㉿kali)-[~]
 └─$ sudo nmap -sS 192.168.56.102 -p 80
@@ -93,7 +93,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 27.57 seconds
  ```
 
-`De esta manera podemos ver la version del SO.`
+De esta manera podemos ver la version del SO.
 
 ``` 
 sudo nmap -v -O 192.168.56.102
@@ -175,7 +175,7 @@ sudo nmap -v -sS --script=vuln 192.168.56.102
  chmod 777 Fase1.xml 
  ```
  
-  `Para sacar reporte de la vulnerabilidad.`
+ Para sacar reporte de la vulnerabilidad.
  
  ```
 sudo nmap -v -sS --script=vuln 192.168.56.102 --reason -oX Fase1.xml --stylesheet="https://svn.nmap.org/nmap/docs/nmap.xsl"
