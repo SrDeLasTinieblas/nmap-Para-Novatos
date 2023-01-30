@@ -161,7 +161,9 @@ Nmap done: 1 IP address (1 host up) scanned in 19.80 seconds
 
 ```sudo nmap -v -sS --reason -oX Fase1.xml --stylesheet="https://svn.nmap.org/nmap/docs/nmap.xsl" 10.0.2.15```
 
-
+`Esto es para darle todos los permisos al archivo Fase1.xml`
+ 
+```chmod 777 Fase1.xml```
 
 
 
