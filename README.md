@@ -174,7 +174,12 @@ sudo nmap -v -sS --script=vuln 192.168.56.102
 ```
  chmod 777 Fase1.xml 
  ```
-
-
+ 
+  `Para sacar reporte de la vulnerabilidad.`
+ 
+ ```
+sudo nmap -v -sS --script=vuln 192.168.56.102 --reason -oX Fase1.xml --stylesheet="https://svn.nmap.org/nmap/docs/nmap.xsl"
+ ```
+ 
 
 
