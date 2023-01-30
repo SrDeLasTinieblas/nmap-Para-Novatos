@@ -149,7 +149,7 @@ Nmap done: 1 IP address (1 host up) scanned in 19.80 seconds
 
 3. Descrubir superficies de ataques vulnerables.
 
-`sudo nmap -v -sS --script=vuln 192.168.56.102`
+```sudo nmap -v -sS --script=vuln 192.168.56.102 ```
 
 
 4. Documentar la vulneravilidad.
@@ -163,7 +163,7 @@ Nmap done: 1 IP address (1 host up) scanned in 19.80 seconds
 
 `Esto es para darle todos los permisos al archivo Fase1.xml`
  
-```chmod 777 Fase1.xml```
+```chmod 777 Fase1.xml ```
 
 
 
