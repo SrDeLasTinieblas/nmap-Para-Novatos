@@ -93,7 +93,9 @@ Nmap done: 1 IP address (1 host up) scanned in 27.57 seconds
 
 `De esta manera podemos ver la version del SO.`
 
-```sudo nmap -v -O 192.168.56.102```
+``` 
+sudo nmap -v -O 192.168.56.102
+```
 
 ```
 ┌──(kali㉿kali)-[~]
@@ -149,7 +151,9 @@ Nmap done: 1 IP address (1 host up) scanned in 19.80 seconds
 
 3. Descrubir superficies de ataques vulnerables.
 
-```sudo nmap -v -sS --script=vuln 192.168.56.102 ```
+```
+sudo nmap -v -sS --script=vuln 192.168.56.102 
+```
 
 
 4. Documentar la vulneravilidad.
@@ -159,11 +163,15 @@ Nmap done: 1 IP address (1 host up) scanned in 19.80 seconds
  - --stylesheet : Aqui le decimos que queremos adaptar todo a una hoja de estilos.
  - <IP> : Este es para decirle que maquina tenemos de target
 
-```sudo nmap -v -sS --reason -oX Fase1.xml --stylesheet="https://svn.nmap.org/nmap/docs/nmap.xsl" 10.0.2.15```
+```
+ sudo nmap -v -sS --reason -oX Fase1.xml --stylesheet="https://svn.nmap.org/nmap/docs/nmap.xsl" 10.0.2.15
+ ```
 
 `Esto es para darle todos los permisos al archivo Fase1.xml`
  
-```chmod 777 Fase1.xml ```
+```
+ chmod 777 Fase1.xml 
+ ```
 
 
 
