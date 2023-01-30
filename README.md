@@ -147,5 +147,22 @@ Nmap done: 1 IP address (1 host up) scanned in 19.80 seconds
            Raw packets sent: 2018 (90.438KB) | Rcvd: 24 (1.354KB)
 ```                                                                             
 
+3. Descrubir superficies de ataques vulnerables.
+
+`sudo nmap -v -sS --script=vuln 192.168.56.102`
+
+
+4. Documentar la vulneravilidad.
+ - -v : Le estamos diciendo que haga un analisis mas a detalle y muestre mayor informacion.
+ - --reason : Es para explicar la razon del por que esta abierto o cerrado un puerto.
+ - -oX : Es para que todo se exporte en el archivo Fase1.xml.
+ - --stylesheet : Aqui le decimos que queremos adaptar todo a una hoja de estilos.
+ - <IP> : Este es para decirle que maquina tenemos de target
+
+```sudo nmap -v -sS --reason -oX Fase1.xml --stylesheet="https://svn.nmap.org/nmap/docs/nmap.xsl" 10.0.2.15```
+
+
+
+
 
 
