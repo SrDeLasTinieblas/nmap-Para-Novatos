@@ -63,7 +63,9 @@ Nmap done: 1 IP address (1 host up) scanned in 13.24 seconds
 ```
  - Ahora enumeraremos los servicios
 
- ```sudo nmap -sV 192.168.56.102 ```
+ ```
+ sudo nmap -sV 192.168.56.102 
+ ```
  
  `Nos saldra los puerto, los estado, los servicios y las versiones`
 
